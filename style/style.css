@@ -173,10 +173,6 @@ body {
   text-align: center;
 }
 
-.advice-item {
-  background-color: #fff;
-}
-
 .advice-title {
   font-size: 40px;
   font-weight: 700;
@@ -202,15 +198,18 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  background-color: #fff;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
 }
 
 .cards-title {
   font-size: 16px;
   font-weight: 700;
   color: var(--color-dark-blue);
-  padding-top: 30px;
-  padding-left: 30px;
 }
 
 .cards-subtitle {
@@ -218,15 +217,9 @@ body {
   font-weight: 500;
   color: var(--color-grey);
   margin-top: 15px;
-  /* margin-bottom: 50px; */
-  padding-left: 30px;
 }
 
-.cards-subtitle:nth-child(:first-child) {
-  margin-bottom: 30px;
+.card-txt-container {
+  padding: 30px 0 50px 30px;
+  margin-bottom: auto;
 }
-
-.card img {
-  margin-top: auto;
-}
-
